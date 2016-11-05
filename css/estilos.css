@@ -1,0 +1,185 @@
+﻿@charset "utf-8";
+
+/* Estilos para plantilla de OVA - Curso: Diseño de sitios web - Actividad 2 - UNAD */
+
+
+/* Características generales de la página */
+
+body {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+background-image:url(../imag/fondo1.png);
+background-repeat:repeat;
+}
+
+#contenedor{
+width:1000px;
+height:auto;
+background-color:#FFFFFF;
+margin-left:auto;
+margin-right:auto;
+margin-top:20px;
+margin-bottom:20px;
+padding:15px;
+border:10px solid #F0B429;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+-webkit-box-shadow:0px 0px 20px #333333;
+-moz-box-shadow:0px 0px 20px #333333;
+box-shadow:0px 0px 20px #333333;
+background-image:url(../imag/fondo2.png);
+background-repeat:repeat;
+}
+
+/* Características del encabezado */
+
+#encabezado {
+width:958px;
+height:170px;
+margin-bottom:0px;
+padding:10PX;
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+border:0px;
+background-color:#FFFFFF;
+border:1px solid #808080;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+#logo_encabezado{
+width:120px;
+height:104px;
+margin:25px;
+float: left;
+}
+
+#nombre_OVA{
+width:auto;
+height:110;
+margin-left:25px;
+margin-top:30px;
+margin-right:25px;
+margin-bottom:30px;
+float:right;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:30px;
+color:#F47920;
+}
+
+
+/* Características del menu de navegación */
+
+#wrap { padding: 0;
+        width:980px;
+        margin: 10px auto; /*Da lugar al centrado de la caja en el elemento superior body*/
+        border:1px solid #808080;
+        background-color:#FFFFFF;
+        text-align: center;
+        font-weight: bold;
+        font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        }
+
+ #navbar { padding:0; margin:0;  color: #333;}
+
+ #navbar li { list-style: none; float: left; margin:0px;}
+   
+ #navbar li a {
+    width:196px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#F0B429;
+	display:block;
+	text-decoration: none;
+	list-style:none;color: #333; }
+	
+ #navbar li a:hover {background-color:#005883; color: #FFFFFF; text-decoration: underline; }
+
+ #navbar li ul {display: none; background-color: #F0B429; border:1px solid #808080}
+   
+ #navbar li:hover ul {font-size: 20px; display: block; position: absolute; margin: 0; padding: 0;}
+
+ #navbar li:hover li { float: none; } 
+   
+ #navbar li:hover li a { background-color: #F0B429; border-bottom: 1px solid #808080; color: #333;}
+
+ #navbar li li a:hover { background-color: #005883; color: #FFFFFF; text-decoration: underline;}
+   
+ .limpiador{padding:0; border-style:none; clear:both; }
+
+/* Características del espacio para el contenido del OVA */
+
+#contenido{
+width:934px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+padding:20px;
+background-color:#FFFFFF;
+border:3px solid #808080;
+}
+	
+	.titulo_contenido{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color:#333;
+	font-weight:bold;
+	text-align:center;
+	}
+	
+	.subtitulo_contenido{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#333;
+	font-weight:bold;
+	text-align:left;	
+	}
+	
+	.texto_contenido {
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: justify;
+    }
+
+/* Caracetrísticas para el espacio del pie de página  */
+
+#pie{
+width:960px;
+height:100px;
+margin-top:20px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:10px;
+padding:10px;
+border:1px solid #808080;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color:#FFFFFF;
+}
+
+#logo_pie{
+width:177px;
+height:42px;
+margin:25px;
+float: left;
+}
+
+#espacio_texto_pie{
+width:600px;
+height:auto;
+margin-right:20px;
+margin-top:10px;
+margin-bottom:10px;
+margin-left:auto;
+float:right;
+font-family:Verdana, Arial, Geneva;
+font-size:15px;
+color:#000000;
+text-align:right;
+}
