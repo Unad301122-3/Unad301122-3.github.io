@@ -124,6 +124,26 @@ padding:20px;
 background-color:#FFFFFF;
 border:3px solid #808080;
 }
+
+  #contenido_izquierdo{
+  width:685px;
+  height:auto;
+  margin-left:auto;
+  margin-right:10px;
+  background-color:#FFFFFF;
+  float:left;
+  }
+
+  #contenido_derecho{
+  width:220px;
+  height:auto;
+  margin-left:10px;
+  margin-right:auto;
+  padding:0;
+  background-color:#FFFFFF;
+  float:right;
+  border:1px solid #808080;
+  }
 	
 	.titulo_contenido{
 	font-family: Verdana, Arial, Helvetica, sans-serif;
